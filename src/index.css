@@ -15,7 +15,7 @@ li{
 }
 
 .navbar{
-    background-color: black;
+    background-color: #040404;
     margin: 0;
     display: flex;
     flex-direction: row;
@@ -27,6 +27,13 @@ li{
     border-bottom: solid #45D62B;
     border-width: 2px;
     position: fixed;
+}
+
+.hamburger{
+    display: none;
+}
+.hamburgerNav{
+    display: none;
 }
 
 .navbarLogo{
@@ -304,11 +311,17 @@ li{
 .footerElement{
     padding-top: 0.5rem;
     font-size: 12px;
+    margin: 10px 0;
 }
 .footerElement:hover{
     cursor: pointer;
     color: #FFFFFF;
     text-decoration: underline;
+}
+.logo{
+    border: 2px solid #888;
+    border-radius: 50%;
+    padding: 10px 4px 2px 4px;
 }
 .footerExtra{
     color: #45D62B;
@@ -346,4 +359,75 @@ hr {
     cursor: pointer;
     color: #FFFFFF;
     text-decoration: underline; 
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 481px){
+    .navbar{
+        display: flex;
+        justify-content:space-between ;
+        padding: 0 15px;
+        border: 0;
+    }
+    .hamburger{
+        display: inline;
+        color: yellow;
+    }
+    .navbarLogo{
+        padding-right: 0;
+    }
+    .cartLogo{
+        padding-left: 0;
+        margin-right: 25px
+    }
+    .navbarListSpan{
+        display: none;
+    }
+    .differentPageOne, .differentPageTwo, .differentPageThree{
+        height: 650px;
+        width: 100%;
+    }
+    .gridSection{
+        grid-template-rows:  650px  650px  650px  650px  650px  650px ;
+        grid-template-columns: 100%;
+    }  
+    .footerMain{
+        display: none;
+    } 
+    .hamburgerNav{
+        display: block;
+        margin: 0;
+        background-color: #040404;
+        
+    }
+    .input{
+        color: #888;
+        background-color: #555555;
+        width: 75%;
+        border-radius: 10%;
+        padding: 10px 10px;
+        margin: 80px 17px 20px 17px;
+        font-size: 16px;
+    }
+    .hamburgerList{
+        color: #888;
+        margin-bottom: 2px solid #888;
+        padding: 20px 32px;
+        font-size: 18px;
+        padding-bottom: 80px;
+    }
+    .hamburgerList p{
+        border-bottom: 1px solid #888;
+        padding-bottom: 25px;
+    }
+    .hamburgerException{
+        margin: 0;
+    }
+    .hamSymbol{
+        color: #45D62B;
+    }
+    .everythingBelowNav{
+        display:none;
+    }
 }
