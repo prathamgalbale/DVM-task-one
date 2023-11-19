@@ -1,20 +1,20 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     background-color: #222222;
 }
 
-ul{
+ul {
     display: inline;
     padding: 0;
     list-style-type: none;
 }
 
-li{
+li {
     marker: none;
 }
 
-.navbar{
+.navbar {
     background-color: #040404;
     margin: 0;
     display: flex;
@@ -29,96 +29,98 @@ li{
     position: fixed;
 }
 
-.hamburger{
-    display: none;
-}
-.hamburgerNav{
+.hamburger {
     display: none;
 }
 
-.navbarLogo{
+.hamburgerNav {
+    display: none;
+}
+
+.navbarLogo {
     height: 50px;
     width: 50px;
     margin: 0;
-    padding-right:2rem ;
+    padding-right: 2rem;
 }
 
-   
-.navbarList{
+
+.navbarList {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     color: #888;
     margin: 0;
-   
-}   
 
-.navbarListElement{
+}
+
+.navbarListElement {
     marker: none;
     padding-left: 2rem;
     padding-right: 2rem;
 }
 
-.cartLogo{
+.cartLogo {
     color: #888;
     padding-left: 2rem;
 }
-.cartLogo:hover{
+
+.cartLogo:hover {
     color: white;
     cursor: pointer;
 }
 
-.navbarListElement:hover{
+.navbarListElement:hover {
     color: white;
     cursor: pointer;
 }
 
-.textBelowNavbar{
+.textBelowNavbar {
     background-color: #555555;
     color: #EEEEEE;
     text-align: center;
     justify-content: center;
-    padding: 11.5px 40px 9.5px 30px ;
+    padding: 11.5px 40px 9.5px 30px;
     font-size: 14px;
     font-weight: 400;
     position: static;
     padding-top: 80px;
 }
 
-.joinNowLink:hover{
+.joinNowLink:hover {
     text-decoration: underline;
     cursor: pointer;
 }
 
-.differentPageOne{
+.differentPageOne {
     background-image: url("./Images/white-gaming-image.webp");
     margin: 0;
     height: 700px;
-    background-position: center; 
-    background-repeat: no-repeat; 
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     justify-content: 62px;
     margin-bottom: 10px;
-}  
+}
 
-.differentPageTwo{
+.differentPageTwo {
     background-image: url("./Images/gaming-pic-razer.webp");
     margin: 0;
     height: 700px;
-    background-position: center; 
-    background-repeat: no-repeat; 
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     justify-content: 62px;
     margin-bottom: 10px;
-}  
+}
 
-.differentPageThree{
+.differentPageThree {
     background-image: url("./Images/lamborghini-image-razer.webp");
     margin: 0;
     height: 700px;
-    background-position: center; 
-    background-repeat: no-repeat; 
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     justify-content: 62px;
     margin-bottom: 10px;
@@ -126,9 +128,9 @@ li{
     display: flex;
     flex-direction: column;
     align-items: center;
-}  
+}
 
-.pageThreeExclusiveBlock{
+.pageThreeExclusiveBlock {
     align-self: center;
     background-color: #fe9c08;
     padding-left: 1rem;
@@ -136,7 +138,7 @@ li{
     margin-top: 2rem;
 }
 
-.lineOne{
+.lineOne {
     margin: 0;
     color: #FFFFFF;
     font-size: 56px;
@@ -145,7 +147,7 @@ li{
     font-weight: 500;
 }
 
-.lineTwo{
+.lineTwo {
     margin: 0;
     color: #FFFFFF;
     font-size: 28px;
@@ -154,57 +156,58 @@ li{
     font-weight: 300;
 }
 
-.lineThree{
+.lineThree {
     margin: 0;
     color: #FFFFFF;
     font-size: 21px;
     margin-top: 10px;
     text-align: center;
-    font-weight:300 ;
+    font-weight: 300;
 }
 
-.differentPageThree .lineOne{
+.differentPageThree .lineOne {
     padding-top: 30px;
 }
 
-.differentPageThree .lineThree{
+.differentPageThree .lineThree {
     display: flex;
     flex-direction: row;
     width: 200px;
     align-content: space-between;
-    
+
 }
 
-.differentPageOne:hover{
+.differentPageOne:hover {
     cursor: pointer;
 }
 
-.differentPageTwo:hover{
+.differentPageTwo:hover {
     cursor: pointer;
 }
 
-.differentPageThree:hover{
+.differentPageThree:hover {
     cursor: pointer;
 }
 
-.lineThreeLink{
+.lineThreeLink {
     color: #45D62B
 }
 
-.lineThreeElement:hover{
+.lineThreeElement:hover {
     text-decoration: underline;
 }
 
-.exclusiveBlockOne{
-     font-weight: 300;
+.exclusiveBlockOne {
+    font-weight: 300;
     font-size: 9.6px;
 }
-.exclusiveBlockTwo{
-   font-weight: 700;
-    font-size: 14px;
-} 
 
-.gridSection{
+.exclusiveBlockTwo {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.gridSection {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 570px 570px 570px;
@@ -214,44 +217,49 @@ li{
     row-gap: 10px;
 }
 
-.box:nth-child(1){
+.box:nth-child(1) {
     background-image: url(./Images/chairPicture-razer.webp);
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-}
-.box:nth-child(2){
-    background-image: url(./Images/mercury-blade16-blade18-b-950x580-desktop.webp);
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-}
-.box:nth-child(3){
-    background-image: url(./Images/razer-blade-14-2023-b-950x580-desktop.webp);
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-}
-.box:nth-child(4){
-    background-image: url(./Images/hyperpolling-razer.webp);
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-}
-.box:nth-child(5){
-    background-image: url(./Images/starwars-razer.webp);
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-}
-.box:nth-child(6){
-    background-image: url(./Images/giftcard-razer.webp);
-    background-position: center; 
-    background-repeat: no-repeat; 
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
-.boxLineOne{
+.box:nth-child(2) {
+    background-image: url(./Images/mercury-blade16-blade18-b-950x580-desktop.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box:nth-child(3) {
+    background-image: url(./Images/razer-blade-14-2023-b-950x580-desktop.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box:nth-child(4) {
+    background-image: url(./Images/hyperpolling-razer.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box:nth-child(5) {
+    background-image: url(./Images/starwars-razer.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box:nth-child(6) {
+    background-image: url(./Images/giftcard-razer.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boxLineOne {
     margin: 0;
     color: #FFFFFF;
     font-size: 40px;
@@ -259,7 +267,8 @@ li{
     padding-top: 50px;
     font-weight: 500;
 }
-.boxLineTwo{
+
+.boxLineTwo {
     margin: 0;
     color: #FFFFFF;
     font-size: 21px;
@@ -267,66 +276,78 @@ li{
     margin-top: 12px;
     font-weight: 300;
 }
-.boxLineThree{
+
+.boxLineThree {
     margin: 0;
     color: #FFFFFF;
     font-size: 17px;
     margin-top: 10px;
     text-align: center;
-    font-weight:300 ;
+    font-weight: 300;
 }
 
-.boxLineOne sup{
+.boxLineOne sup {
     font-size: 17px;
 }
-.box:hover{
+
+.box:hover {
     cursor: pointer;
 }
-.boxLineThreeLink{
+
+.boxLineThreeLink {
     color: #45D62B
 }
-.boxLineThreeElement:hover{
+
+.boxLineThreeElement:hover {
     text-decoration: underline;
 }
 
-.footerMain{
+.footerMain {
     bottom: 0;
     margin-top: 10px;
-    background-color:#111111;
+    background-color: #111111;
     color: #888;
     padding: 30px 80px;
 }
-.footerFirst{
+
+.footerFirst {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.footerlist{
+
+.footerlist {
     font-weight: 400;
 }
-.footerHElement{
-    font-size: 12px; 
+
+.footerHElement {
+    font-size: 12px;
     color: #FFFFFF;
 }
-.footerElement{
+
+.footerElement {
     padding-top: 0.5rem;
     font-size: 12px;
     margin: 10px 0;
 }
-.footerElement:hover{
+
+.footerElement:hover {
     cursor: pointer;
     color: #FFFFFF;
     text-decoration: underline;
 }
-.footerTwo{
+
+.footerTwo {
     display: none;
 }
-.logo{
+
+.logo {
     border: 2px solid #888;
     border-radius: 50%;
     padding: 10px 4px 2px 4px;
 }
-.footerExtra{
+
+.footerExtra {
     color: #45D62B;
     font-size: 14.4px;
     margin-left: 170px;
@@ -337,7 +358,8 @@ hr {
     margin-left: 28px;
     height: 0px;
 }
-.lastLine{
+
+.lastLine {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -346,87 +368,105 @@ hr {
     color: #888;
     margin-left: 28px;
 }
-.lastLineH{
+
+.lastLineH {
     padding-left: 1rem;
-    padding-right: 1rem;;
+    padding-right: 1rem;
+    ;
 }
-.lastLineH:hover{
+
+.lastLineH:hover {
     cursor: pointer;
     color: #FFFFFF;
     text-decoration: underline;
 }
-.US{
+
+.US {
     color: #FFFFFF;
 }
-.location:hover{
+
+.location:hover {
     cursor: pointer;
     color: #FFFFFF;
-    text-decoration: underline; 
+    text-decoration: underline;
 }
 
 /* RESPONSIVE */
 
-@media only screen and (max-width: 481px){
-    .navbar{
+@media only screen and (max-width: 481px) {
+    .navbar {
         display: flex;
-        justify-content:space-between ;
+        justify-content: space-between;
         padding: 0 15px;
         border: 0;
     }
-    .hamburger{
+
+    .hamburger {
         display: inline;
-    } 
-    .navbarLogo{
+    }
+
+    .navbarLogo {
         padding-right: 0;
     }
-    .cartLogo{
+
+    .cartLogo {
         padding-left: 0;
         margin-right: 25px
     }
-    .navbarListSpan{
+
+    .navbarListSpan {
         display: none;
     }
-    .differentPageOne, .differentPageTwo, .differentPageThree{
+
+    .differentPageOne,
+    .differentPageTwo,
+    .differentPageThree {
         height: 650px;
         width: 100%;
     }
-    .gridSection{
-        grid-template-rows:  650px  650px  650px  650px  650px  650px ;
+
+    .gridSection {
+        grid-template-rows: 650px 650px 650px 650px 650px 650px;
         grid-template-columns: 100%;
-    }  
-    
-    
-    .hamburgerBar{
+    }
+
+
+    .hamburgerBar {
         display: block;
         width: 30px;
         height: 2px;
         margin: 10px auto;
         background-color: #888888;
     }
-    .hamburger.active .hamburgerBar:nth-child(1){
+
+    .hamburger.active .hamburgerBar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
     }
-    .hamburger.active .hamburgerBar:nth-child(2){
+
+    .hamburger.active .hamburgerBar:nth-child(2) {
         transform: translateY(-8px) rotate(-45deg);
     }
 
-    .hamburgerNav{
+    .hamburgerNav {
         display: block;
         width: 100%;
         margin-top: 40px;
         background-color: #040404;
         position: fixed;
-        left: -100%; 
+        left: -100%;
     }
-    .hamburgerNav.active{
+
+    .hamburgerNav.active {
         left: 0;
     }
-    .hamburgerMenuTop{
+
+    .hamburgerMenuTop {
         display: flex;
         margin: 0;
         justify-content: center;
     }
-    #search{
+
+    #search {
         color: #888;
         background-color: #555555;
         width: 75%;
@@ -435,67 +475,123 @@ hr {
         margin: 20px 17px 0px 20px;
         font-size: 16px;
     }
-    .hamburgerList{
+
+    .hamburgerList {
         color: #888;
         margin-bottom: 2px solid #888;
         padding: 10px 32px;
         font-size: 18px;
         padding-bottom: 40px;
     }
-    .hamburgerList p{
+
+    .hamburgerList p {
         border-bottom: 1px solid #888;
         padding-bottom: 25px;
     }
-    .hamburgerException{
+
+    .hamburgerException {
         margin: 0;
         margin-bottom: none;
     }
-    .hamSymbol{
+
+    .hamSymbol {
         color: #45D62B;
     }
-    
 
-    .footerMain{
+
+    .footerMain {
         display: none;
         /* padding: 0px 60px;
-        margin-top: 0; */
-        
+    margin-top: 0; */
+
     }
-    .footerTwo{
+
+    .footerTwo {
         display: inline;
     }
-    .footerHElement{
+
+    .footerHElement {
         display: flex;
         justify-content: space-between;
         padding: 20px 20px;
         margin-bottom: 2px solid yellow;
     }
-    .footerTwoBottom{
+
+    .footerTwoBottom {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        align-items: center;
         align-content: space-around;
         color: #FFFFFF;
-        padding-left: 40px;
         margin: 0;
     }
-    .lastLineH{
+
+    .lastLineH {
         padding: 0 2px;
     }
-    .footerExtra{
+
+    .footerExtra {
         margin-left: 10px;
-        
+
     }
-    .hamburgerFooterOne.active{
-         transform: rotate(45deg);
+
+    .hamburgerFooterOne.active {
+        transform: rotate(45deg);
     }
-    .hamburgerFooterListOne{
+
+    .hamburgerFooterListOne {
         display: none;
     }
-    .hamburgerFooterListOne.active{
+
+    .hamburgerFooterListOne.active {
         display: inline;
+        color: grey;
     }
-    .logo{
+
+    .hamburgerFooterTwo.active {
+        transform: rotate(45deg);
+    }
+
+    .hamburgerFooterListTwo {
+        display: none;
+    }
+
+    .hamburgerFooterListTwo.active {
+        display: inline;
+        color: grey;
+    }
+
+    .hamburgerFooterThree.active {
+        transform: rotate(45deg);
+    }
+
+    .hamburgerFooterListThree {
+        display: none;
+    }
+
+    .hamburgerFooterListThree.active {
+        display: inline;
+        color: grey;
+    }
+
+    .hamburgerFooterFour.active {
+        transform: rotate(45deg);
+    }
+
+    .hamburgerFooterListFour {
+        display: none;
+    }
+
+    .hamburgerFooterListFour.active {
+        display: inline;
+        color: grey;
+    }
+
+    .logo {
         border: none;
+    }
+
+    .footerTwoElement {
+        padding-left: 1.3rem;
     }
 }
